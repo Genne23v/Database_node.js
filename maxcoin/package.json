@@ -1,0 +1,27 @@
+{
+    "name": "maxcoin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Wonkeun No",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "ioredis": "^4.27.1",
+        "mogoose": "0.0.1-security",
+        "mongodb": "^3.6.6",
+        "mysql2": "^2.2.5"
+    },
+    "devDependencies": {
+        "eslint": "^7.10.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-prettier": "^6.12.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.1.2"
+    }
+}
